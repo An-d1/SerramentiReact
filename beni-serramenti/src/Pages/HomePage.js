@@ -37,7 +37,7 @@ function HomePage() {
       <div className='text-center' style={{ paddingTop: '8rem' }}
       data-aos="fade-left">
         <h1>
-          Sei interesato? Contattaci!!
+          Sei interesato? 
         </h1>
         <ScopriProdotti
           specifiedPath={contactPath}

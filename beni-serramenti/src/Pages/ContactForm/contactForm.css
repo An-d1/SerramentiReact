@@ -1,6 +1,7 @@
 .form-container {
   z-index: 100;
   margin-top: 8%;
+  margin-bottom: 10vh;
   width: 50%;
   font-family: sans-serif, Arial, Helvetica;
 }
@@ -28,7 +29,7 @@
 .form-btn {
   padding: 0.5em 2em;
   font-size: 2.5vh;
-  text-transform: uppercase;
+  font-family: "Bebas Neue";
   letter-spacing: 2.5px;
   color: #000;
   background-color: #fff;

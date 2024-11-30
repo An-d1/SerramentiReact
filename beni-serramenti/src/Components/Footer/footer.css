@@ -5,11 +5,9 @@ html, body {
   height: 100%; /* Ensures the height is 100% */
 }
 
-
-
 /* Footer */
 .footer-container {
-  z-index: -100;
+  z-index: 1;
   background-color: rgba(255, 255, 255, 0.582);
   text-align: center;
   padding: 10px;
