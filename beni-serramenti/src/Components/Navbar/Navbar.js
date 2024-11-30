@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from "react-router-dom"
 
 function contactFormScroll() {
   const contactStart = document.getElementById("contactForm");
@@ -17,8 +18,8 @@ function Navbar() {
     </button>
     <div className="collapse navbar-collapse me-5" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link me-3" aria-current="page" href="{#}">Home</a>
-        <a className="nav-link me-3" href="{#}">Prodotti</a>
+        <Link className="nav-link me-3" to="/">Home</Link>
+        <Link className="nav-link me-3" to="/prodotti">Prodotti</Link>
         <a className="nav-link me-3" onClick={contactFormScroll}>Contact</a>
       </div>
     </div>

@@ -1,25 +1,19 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import BacgroundImg from './Components/BackgroundImg/BacgroundImg';
-import ScopriProdotti from './Components/ScopriProdottiBtn/ScopriProdottiBtn';
-import ContactForm from './Components/ContactForm/ContactForm'
-import Footer from './Components/Footer/Footer';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import  HomePage from './Pages/HomePage'
+import  Prodotti from './Pages/Prodotti'
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <BacgroundImg></BacgroundImg>
-      <div className='text-center pt-5'>
-        <h1>
-          "Dove il miglior prezzo incontra <br></br>la migliore qualità!"
-        </h1>
-      </div>
-      <ScopriProdotti></ScopriProdotti>
-      <ContactForm></ContactForm>
-      <Footer></Footer>
-    </>
+    
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/prodotti" element={<Prodotti />}/>
+      </Routes>
+    </Router>
+
+      
   );
 }
 
