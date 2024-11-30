@@ -5,17 +5,7 @@ html, body {
   height: 100%; /* Ensures the height is 100% */
 }
 
-/* Container wrapping the entire page */
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Full viewport height */
-}
 
-/* Content area (pushes footer down if content is tall) */
-.content {
-  flex: 1; /* Allows content to grow */
-}
 
 /* Footer */
 .footer-container {

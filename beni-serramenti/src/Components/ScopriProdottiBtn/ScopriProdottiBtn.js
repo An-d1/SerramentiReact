@@ -1,24 +1,24 @@
 import { Link } from "react-router-dom";
 
-function ScopriProdotti() {
+function ScopriProdotti({ firstInput, secondInput, thirdInput, specifiedPath }) {
   return (
   
     <div>     
-    <Link to="/prodotti">
+    <Link to={specifiedPath}>
     <div className='container-fluid  d-flex justify-content-center'>  
     <a href='{#}'>
     <div className='row'>
     <div className='col-12'>
     <div className='scopri-btn'>
       <div class="text">
-        <span>Scopri</span>
-        <span>i</span>
-        <span>Prodotti</span>
+        <span>{firstInput}</span>
+        <span>{secondInput}</span>
+        <span>{thirdInput}</span>
       </div>
       <div class="clone">
-        <span>Scopri</span>
-        <span>i</span>
-        <span>Prodotti</span>
+        <span>{firstInput}</span>
+        <span>{secondInput}</span>
+        <span>{thirdInput}</span>
       </div>
       <svg
         stroke-width="2"
