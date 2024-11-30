@@ -5,3 +5,28 @@
   width: 100%;
   object-fit: cover;
 }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bckgImg:hover .image {
+  opacity: 0.3;
+}
+
+.bckgImg:hover .middle {
+  opacity: 1;
+}
+
+.imageText {
+  color: white;
+  font-size: 10vh;
+  padding: 16px 32px;
+}

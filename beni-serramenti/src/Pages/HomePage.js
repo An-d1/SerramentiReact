@@ -22,7 +22,8 @@ function HomePage() {
     <>
     <Navbar></Navbar>
       <BacgroundImg></BacgroundImg>
-      <div className='text-center' style={{ paddingTop: '8rem', paddingBottom: '6rem' }}>
+      <div className='text-center' style={{ paddingTop: '8rem' }} 
+      data-aos="fade-right">
         <h1>
           "Dove il miglior prezzo incontra <br></br>la migliore qualità!"
         </h1>
@@ -33,7 +34,8 @@ function HomePage() {
         secondInput={secondInput}
         thirdInput={thirdInput}></ScopriProdotti>
       
-      <div className='text-center' style={{ paddingTop: '8rem' }}>
+      <div className='text-center' style={{ paddingTop: '8rem' }}
+      data-aos="fade-left">
         <h1>
           Sei interesato? Contattaci!!
         </h1>
