@@ -1,4 +1,4 @@
-import backgroundImage from '../Images/pexels-naimbic-2030037.jpg'
+import backgroundImage from '../../Images/pexels-naimbic-2030037.jpg'
 
 function backgroundImg() {
   return (

@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './Navbar/navbar.css';
-import './BackgroundImg/backgroundImg.css';
-import './ScopriProdottiBtn/scopriProdotti.css';
+import './Components/Navbar/navbar.css';
+import './Components/BackgroundImg/backgroundImg.css';
+import './Components/ScopriProdottiBtn/scopriProdotti.css';
+import './Components/ContactForm/contactForm.css'
+import './Components/Footer/footer.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

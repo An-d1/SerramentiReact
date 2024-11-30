@@ -1,7 +1,10 @@
 import './App.css';
-import Navbar from './Navbar/Navbar';
-import BacgroundImg from './BackgroundImg/BacgroundImg';
-import ScopriProdotti from './ScopriProdottiBtn/ScopriProdottiBtn';
+import Navbar from './Components/Navbar/Navbar';
+import BacgroundImg from './Components/BackgroundImg/BacgroundImg';
+import ScopriProdotti from './Components/ScopriProdottiBtn/ScopriProdottiBtn';
+import ContactForm from './Components/ContactForm/ContactForm'
+import Footer from './Components/Footer/Footer';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
         </h1>
       </div>
       <ScopriProdotti></ScopriProdotti>
+      <ContactForm></ContactForm>
+      <Footer></Footer>
     </>
   );
 }
