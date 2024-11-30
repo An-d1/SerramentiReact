@@ -4,7 +4,7 @@ import './index.css';
 import './Components/Navbar/navbar.css';
 import './Components/BackgroundImg/backgroundImg.css';
 import './Components/ScopriProdottiBtn/scopriProdotti.css';
-import './Components/ContactForm/contactForm.css'
+import './Pages/ContactForm/contactForm.css'
 import './Components/Footer/footer.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';

@@ -20,7 +20,8 @@ function Navbar() {
       <div className="navbar-nav">
         <Link className="nav-link me-3" to="/">Home</Link>
         <Link className="nav-link me-3" to="/prodotti">Prodotti</Link>
-        <a className="nav-link me-3" onClick={contactFormScroll}>Contact</a>
+        <Link className="nav-link me-3" to="/contact" onClick={contactFormScroll}>Contact</Link>
+        
       </div>
     </div>
   </div>

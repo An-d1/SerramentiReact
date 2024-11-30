@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 
 function ScopriProdotti() {
-  return (<div>
-           
+  return (
+  
+    <div>     
+    <Link to="/prodotti">
     <div className='container-fluid  d-flex justify-content-center'>  
     <a href='{#}'>
     <div className='row'>
@@ -37,7 +40,7 @@ function ScopriProdotti() {
     </div>
     </a>     
     </div>
-
+    </Link> 
     </div>);
 }
 

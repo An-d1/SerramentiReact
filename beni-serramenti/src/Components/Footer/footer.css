@@ -1,5 +1,26 @@
+/* Apply styles to the body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures the height is 100% */
+}
+
+/* Container wrapping the entire page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Content area (pushes footer down if content is tall) */
+.content {
+  flex: 1; /* Allows content to grow */
+}
+
+/* Footer */
 .footer-container {
-  position: relative;
-  bottom: 0;
+  z-index: -100;
   background-color: rgba(255, 255, 255, 0.582);
+  text-align: center;
+  padding: 10px;
 }

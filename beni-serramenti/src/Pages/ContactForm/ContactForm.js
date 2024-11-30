@@ -1,8 +1,12 @@
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 function ContactForm() {
   return(
     <>
-    <div className="container-fluid mt-5 form-container" id="contactForm">
+    <Navbar></Navbar>
+
+    <div className="container-fluid form-container" id="contactForm">
     <div className="row">
     <div className="col-6">
     <div className="form-floating mb-3">
@@ -34,11 +38,19 @@ function ContactForm() {
       <label for="floatingTextarea">Messagio</label>
     </div>
     </div>
-    <div className="col-12">
+    <div className="col-12 col-lg-4">
     <button class="form-btn mb-3" type="submit">Invio</button>
     </div>
+    <div className="col-12 col-lg-4 contact-email">
+      Email: baraarben@gmail.com
+    </div>
+    <div className="col-12 col-lg-4 contact-tel">
+      Tel: 00 39 327 8366688
     </div>
     </div>
+    </div>
+
+    <Footer></Footer>
   </>
   );
 }

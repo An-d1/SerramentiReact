@@ -1,4 +1,6 @@
 .form-container {
+  z-index: 100;
+  margin-top: 6%;
   width: 50%;
   font-family: sans-serif, Arial, Helvetica;
 }
@@ -10,6 +12,16 @@
   .form-container {
     width: 85%;
   }
+}
+
+.contact-email,
+.contact-tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff9f9;
 }
 
 /* From Uiverse.io by cssbuttons-io */ 

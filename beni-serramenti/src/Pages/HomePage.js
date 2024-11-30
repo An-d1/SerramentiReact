@@ -1,7 +1,7 @@
 import Navbar from '../Components/Navbar/Navbar';
 import BacgroundImg from '../Components/BackgroundImg/BacgroundImg';
 import ScopriProdotti from '../Components/ScopriProdottiBtn/ScopriProdottiBtn';
-import ContactForm from '../Components/ContactForm/ContactForm'
+import ContactForm from './ContactForm/ContactForm'
 import Footer from '../Components/Footer/Footer';
 
 function HomePage() {
@@ -15,7 +15,7 @@ function HomePage() {
         </h1>
       </div>
       <ScopriProdotti></ScopriProdotti>
-      <ContactForm></ContactForm>
+      
       <Footer></Footer>
     </>
   );
