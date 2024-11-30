@@ -1,0 +1,69 @@
+.navbar-toggler {
+  background-color: rgba(253, 253, 253, 0.719);
+}
+
+.navbar-toggler-icon {
+  background-color: rgba(253, 253, 253, 0);
+}
+
+.navbar-brand {
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+
+  .navbar-brand {
+    margin-left: 3rem;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+
+  /* Animation Styles for the nav-link elements */
+
+  /* From Uiverse.io by WhiteNervosa */ 
+  .nav-link {
+    font-size: 3.5vh;
+    color: #000000;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    transition: transform 255ms;
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #304d4a;
+    transform: scale(1.1);
+  }
+
+  .nav-link:focus:after,
+  .nav-link:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .nav-link:after {
+    content: "";
+    pointer-events: none;
+    bottom: 5px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  } 
+}
+
