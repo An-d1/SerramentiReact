@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './Navbar/navbar.css'
+import './Navbar/navbar.css';
+import './BackgroundImg/backgroundImg.css';
+import './ScopriProdottiBtn/scopriProdotti.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

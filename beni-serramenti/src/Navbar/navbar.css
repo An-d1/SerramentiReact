@@ -1,5 +1,10 @@
 .navbar-toggler {
-  background-color: rgba(253, 253, 253, 0.719);
+  width: 100px;
+  height: 56px;
+  overflow: hidden;
+  border: none;
+  position: relative;
+  cursor: pointer;
 }
 
 .navbar-toggler-icon {
@@ -9,6 +14,14 @@
 .navbar-brand {
   font-size: 5vh;
   font-weight: 700;
+}
+
+.navbar-nav {
+  font-size: 3.5vh;
+}
+
+.nav-link {
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -25,15 +38,11 @@
 
   /* From Uiverse.io by WhiteNervosa */ 
   .nav-link {
-    font-size: 3.5vh;
-    color: #000000;
-    font-family: inherit;
     font-weight: 600;
     cursor: pointer;
     position: relative;
     border: none;
     background: none;
-    text-transform: uppercase;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
@@ -67,3 +76,8 @@
   } 
 }
 
+@media (max-width:991px) {
+  .nav-link {
+    font-weight: 4vh;
+  }
+}

@@ -1,0 +1,7 @@
+.bckgImg img{
+  margin-top: 5vh;
+  height: auto;
+  max-height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
