@@ -1,12 +1,11 @@
 import Navbar from '../Components/Navbar/Navbar';
 import BacgroundImg from '../Components/BackgroundImg/BacgroundImg';
 import ScopriProdotti from '../Components/ScopriProdottiBtn/ScopriProdottiBtn';
-import ContactForm from './ContactForm/ContactForm'
 import Footer from '../Components/Footer/Footer';
 
 function HomePage() {
 
-  const prodottiPath = "/prodotti"
+  const prodottiPath = "/finestre"
   const contactPath = "/contact"
 
   const firstInput = "Scopri";

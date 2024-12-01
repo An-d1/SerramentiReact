@@ -1,0 +1,43 @@
+.products-container {
+  margin-top: 0;
+}
+
+.one-window {
+  height: 400px;
+  width: 620px;  
+}
+
+.one-window img {
+  height: 70%;
+  margin-bottom: 0;
+}
+
+/** Modal Styles **/
+
+.modal-header,
+.modal-footer {
+  background-color: #d4dfe0;
+}
+
+.modal-body {
+  background-color: #d4dfe0;
+  font-size: 4vh;
+  font-family: sans-serif, Helvetica;
+  color: black;
+}
+
+.products-button {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #37565a;
+  transition: all 0.2s ease;
+}
+
+.products-button:hover {
+  background-color: #46696e;
+  transform: scale(1.02);
+}

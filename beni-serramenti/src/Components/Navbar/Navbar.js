@@ -19,7 +19,7 @@ function Navbar() {
     <div className="collapse navbar-collapse me-5" id="navbarNavAltMarkup">
       <div className="navbar-nav">
         <Link className="nav-link me-3" to="/">H o m e</Link>
-        <Link className="nav-link me-3" to="/prodotti">P r o d o t t i</Link>
+        <Link className="nav-link me-3" to="/finestre">P r o d o t t i</Link>
         <Link className="nav-link me-3" to="/contact" onClick={contactFormScroll}>C o n t a t t a c i</Link>
         
       </div>

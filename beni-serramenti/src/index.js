@@ -6,7 +6,8 @@ import './Components/BackgroundImg/backgroundImg.css';
 import './Components/ScopriProdottiBtn/scopriProdotti.css';
 import './Pages/ContactForm/contactForm.css'
 import './Components/Footer/footer.css'
-import './Pages/prodotti.css'
+import './Pages/Finestre/prodotti.css'
+import './Components/CollapseMenu/collapseMenu.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

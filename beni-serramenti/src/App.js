@@ -1,8 +1,12 @@
 import './App.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import  HomePage from './Pages/HomePage'
-import  Prodotti from './Pages/Prodotti'
+import  Finestre from './Pages/Finestre/Finestre'
 import ContactForm from './Pages/ContactForm/ContactForm';
+import Tapparelle from './Pages/Tapparelle/Tapparelle';
+import Zanzaniere from './Pages/Zanzaniere/Zanzaniere';
+import PorteBlindate from './Pages/PorteBlindate/PorteBlindate';
+import PorteInterneEsterne from './Pages/PorteInterneEsterne/PorteInterneEsterne';
 
 function App() {
   return (
@@ -10,8 +14,12 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />}/>
-        <Route path="/prodotti" element={<Prodotti />}/>
+        <Route path="/finestre" element={<Finestre />}/>
         <Route path="/contact" element={<ContactForm />}/>
+        <Route path="/porteBlindate" element={<PorteBlindate />}/>
+        <Route path="/porteInterneEsterne" element={<PorteInterneEsterne />}/>
+        <Route path="/tapparelle" element={<Tapparelle />}/>  
+        <Route path="/zanzaniere" element={<Zanzaniere />}/>
       </Routes>
     </Router>
 

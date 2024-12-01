@@ -1,0 +1,39 @@
+.collapse-btn {
+  background-color: #37565a;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 4vh;
+}
+
+.collapse-btn:hover {
+  color: #fff;
+  transform: scale(1.02);
+}
+
+.card-body {
+  background-color: transparent;
+  border: none;
+  font-size: 3.5vh;
+}
+
+@media (max-width:991px) {
+  .card-body {
+    background-color: transparent;
+    border: none;
+    font-size: 2.5vh;
+  }
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: var(--bs-list-group-active-color);
+  background-color: #37565a;
+  border-color: var(--bs-list-group-active-border-color);
+  text-decoration: none;
+}
+
