@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function CollapseMenu({ activeProduct, firstProduct, secondProduct,thirdProduct,fourthProduct }) {
+function CollapseMenu({ currentPath, path1, path2, path3, path4, activeProduct, firstProduct, secondProduct,thirdProduct,fourthProduct }) {
   return (
     <>
       <p class="d-flex justify-content-center gap-1">
@@ -13,17 +13,35 @@ function CollapseMenu({ activeProduct, firstProduct, secondProduct,thirdProduct,
         <div class="card card-body d-flex align-items-center">
         <div class="list-group">
           <Link 
-          to="/">
+          to={ currentPath }>
           <div class="list-group-item list-group-item-action active" aria-current="true">
           {activeProduct}
           </div>
           </Link>
           
-          <div class="list-group-item list-group-item-action">{firstProduct}</div>
-          <div class="list-group-item list-group-item-action">{secondProduct}</div>
-          <div class="list-group-item list-group-item-action">{thirdProduct}</div>
-          <div class="list-group-item list-group-item-action">{fourthProduct}</div>
+          <Link
+          to={ path1 }
+          >
+            <div class="list-group-item list-group-item-action">{firstProduct}</div>
+          </Link>
           
+          <Link
+          to={ path2 }
+          >
+            <div class="list-group-item list-group-item-action">{secondProduct}</div>
+          </Link>
+
+          <Link
+          to={ path3 }
+          >
+            <div class="list-group-item list-group-item-action">{thirdProduct}</div>
+          </Link>
+
+          <Link
+          to={ path4 }
+          >
+            <div class="list-group-item list-group-item-action">{fourthProduct}</div>
+          </Link>
         </div>
         </div>
       </div>

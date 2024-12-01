@@ -7,11 +7,15 @@ import silver from '../../Images/win_0.webp';
 
 function Finestre() {
 
-  const currentPath = ""
+  const currentPath = "/finestre"
+  const path1 = "/tapparelle"
+  const path2 = "/zanzaniere"
+  const path3 = "/porteBlindate"
+  const path4 = "/porteInterneEsterne"
 
   const thisActive = "Finestre"
   const first = "Tapparelle"
-  const second = "zanzariere"
+  const second = "Zanzariere"
   const third = "Porte Blindate"
   const fourth = "Porte Interne & Esterne"
 
@@ -26,6 +30,11 @@ function Finestre() {
       </div>
 
       <CollapseMenu
+        currentPath={currentPath}
+        path1={path1}
+        path2={path2}
+        path3={path3}
+        path4={path4}
         activeProduct={thisActive}
         firstProduct={first}
         secondProduct={second}
