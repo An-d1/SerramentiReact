@@ -1,12 +1,22 @@
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import CollapseMenu from '../../Components/CollapseMenu/CollapseMenu';
+import Modal from '../../Components/Modal/Modal';
 import goldenWindow from '../../Images/Golden-OAK.webp';
 import anthracite from '../../Images/ANTHRACITE-1.webp';
 import silver from '../../Images/win_0.webp';
 
 function Finestre() {
 
+  const firstModalHeader = "bluEvolution82";
+  const firstModalBody = " Sistemi del futuro: La serie di profili bluEvolution con una profondità costruttiva di 82 mm. Combina un’eccezionale conservazione dell’energia con una tecnologia di tenuta innovativa ai massimi livelli ed è particolarmente adatta come componente per le case passive. Le perdite di calore sono ridotte grazie all’uso di queste cornici e battenti ottimizzati in combinazione con un vetro triplo isolante dotato di un sigillo perimetrale termicamente migliorato. E questo ti fa risparmiare!";
+
+  const secondModalHeader = "proevolution72 md";
+  const secondModalBody = "Il sistema di finestre Salamander Pro 72 MD combina soluzioni tecnologiche, ecologiche ed estetiche avanzate, rispondendo alle sfide del mercato odierno in termini di efficienza energetica, design, comfort dell’utente, sicurezza e durabilità."
+
+  const thirdModalHeader = "greenevolution76"
+  const thirdModalBody = "greenEvolution è il sistema di finestre sostenibile per la ristrutturazione di edifici storici, ristrutturazioni e nuovi progetti di costruzione. Lo stile giusto può essere fornito per ogni tipo di finestra, dai telai delle finestre in stile wilhelminiano a finestre moderne a tutta altezza in vetro: montanti per vetro, finestre a battente singolo o doppio con o senza vetro fisso.Con greenEvolution, una finestra diventa la tua finestra personale. Sono disponibili cinque diversi battenti per questo sistema di profili. Possono essere altamente personalizzati con decorazioni o scocche in alluminio per adattarsi perfettamente alle tue preferenze di facciata e interior design."
+  
   const path0 = "/finestre"
   const path1 = "/tapparelle"
   const path2 = "/zanzariere"
@@ -43,26 +53,11 @@ function Finestre() {
           </div>
 
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'> 
-            <button type="button" className="products-button fs-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-              Scopri di più
-            </button>
-          
-          <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <h1 className="modal-title fs-1" id="staticBackdropLabel">bluEvolution82</h1>
-                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div className="modal-body">
-                  Sistemi del futuro: La serie di profili bluEvolution con una profondità costruttiva di 82 mm. Combina un’eccezionale conservazione dell’energia con una tecnologia di tenuta innovativa ai massimi livelli ed è particolarmente adatta come componente per le case passive. Le perdite di calore sono ridotte grazie all’uso di queste cornici e battenti ottimizzati in combinazione con un vetro triplo isolante dotato di un sigillo perimetrale termicamente migliorato. E questo ti fa risparmiare!
-                </div>
-                <div className="modal-footer">
-                  <button type="button" className="products-button" data-bs-dismiss="modal">Chiude</button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Modal
+            modalHeader={firstModalHeader}
+            modalBody={firstModalBody}
+          >
+          </Modal>
           </div>
         </div>
         
@@ -73,27 +68,12 @@ function Finestre() {
           </div>
 
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'> 
-            <button type="button" className="products-button fs-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-              Scopri di più
-            </button>
-          
-
-          <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <h1 className="modal-title fs-1" id="staticBackdropLabel">proevolution72 md</h1>
-                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div className="modal-body">
-                  Il sistema di finestre Salamander Pro 72 MD combina soluzioni tecnologiche, ecologiche ed estetiche avanzate, rispondendo alle sfide del mercato odierno in termini di efficienza energetica, design, comfort dell’utente, sicurezza e durabilità.
-                </div>
-                <div className="modal-footer">
-                  <button type="button" className="products-button" data-bs-dismiss="modal">Chiude</button>
-                </div>
-              </div>
-            </div>
-          </div>
+            <Modal
+            modalHeader={secondModalHeader}
+            modalBody={secondModalBody}
+            >
+            
+            </Modal>
           </div>
 
         </div>
@@ -105,26 +85,12 @@ function Finestre() {
          </div>
           
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'> 
-            <button type="button" className="products-button fs-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-              Scopri di più
-            </button>
-          
-          <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <h1 className="modal-title fs-1" id="staticBackdropLabel">proevolution72 md</h1>
-                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div className="modal-body">
-                  Il sistema di finestre Salamander Pro 72 MD combina soluzioni tecnologiche, ecologiche ed estetiche avanzate, rispondendo alle sfide del mercato odierno in termini di efficienza energetica, design, comfort dell’utente, sicurezza e durabilità.
-                </div>
-                <div className="modal-footer">
-                  <button type="button" className="products-button" data-bs-dismiss="modal">Chiude</button>
-                </div>
-              </div>
-            </div>
-          </div>
+            <Modal
+            modalHeader={thirdModalHeader}
+            modalBody={thirdModalBody}
+            >
+              
+            </Modal>
           </div>
           
         </div>
