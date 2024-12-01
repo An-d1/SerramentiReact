@@ -2,8 +2,8 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import CollapseMenu from "../../Components/CollapseMenu/CollapseMenu";
 
-function Zanzaniere() {
-  const currentPath = "/zanzaniere"
+function Zanzariere() {
+  const currentPath = "/zanzariere"
   const path1 = "/tapparelle"
   const path2 = "/finestre"
   const path3 = "/porteBlindate"
@@ -34,4 +34,4 @@ function Zanzaniere() {
   );
 }
 
-export default Zanzaniere;
+export default Zanzariere;

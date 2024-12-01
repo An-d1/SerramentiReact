@@ -5,7 +5,7 @@ import CollapseMenu from "../../Components/CollapseMenu/CollapseMenu";
 function Tapparelle() {
   const currentPath = "/tapparelle"
   const path1 = "/finestre"
-  const path2 = "/zanzaniere"
+  const path2 = "/zanzariere"
   const path3 = "/porteBlindate"
   const path4 = "/porteInterneEsterne"
 

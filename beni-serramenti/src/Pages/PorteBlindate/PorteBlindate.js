@@ -5,7 +5,7 @@ import CollapseMenu from "../../Components/CollapseMenu/CollapseMenu";
 function PorteBlindate() {
   const currentPath = "/porteBlindate"
   const path1 = "/tapparelle"
-  const path2 = "/zanzaniere"
+  const path2 = "/zanzariere"
   const path3 = "/finestre"
   const path4 = "/porteInterneEsterne"
 

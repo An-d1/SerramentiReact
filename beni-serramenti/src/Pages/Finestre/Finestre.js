@@ -9,7 +9,7 @@ function Finestre() {
 
   const currentPath = "/finestre"
   const path1 = "/tapparelle"
-  const path2 = "/zanzaniere"
+  const path2 = "/zanzariere"
   const path3 = "/porteBlindate"
   const path4 = "/porteInterneEsterne"
 
