@@ -5,7 +5,7 @@ function backgroundImg() {
     <div className='bckgImg'>
       <img  src={backgroundImage} alt="background" />
       <div className='middle'>
-        <div class="imageText">Benvenuto!</div>
+        <div className="imageText">Benvenuto!</div>
       </div>
     </div>
   );

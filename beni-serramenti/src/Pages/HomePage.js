@@ -8,6 +8,8 @@ function HomePage() {
   const prodottiPath = "/finestre"
   const contactPath = "/contact"
 
+  const activeOne = prodottiPath.valueOf;
+
   const firstInput = "Scopri";
   const secondInput = "i";
   const thirdInput = "Prodotti";

@@ -10,12 +10,12 @@ function ScopriProdotti({ firstInput, secondInput, thirdInput, specifiedPath }) 
     <div className='row'>
     <div className='col-12'>
     <div className='scopri-btn'>
-      <div class="text">
+      <div className="text">
         <span>{firstInput}</span>
         <span>{secondInput}</span>
         <span>{thirdInput}</span>
       </div>
-      <div class="clone">
+      <div className="clone">
         <span>{firstInput}</span>
         <span>{secondInput}</span>
         <span>{thirdInput}</span>
@@ -25,7 +25,7 @@ function ScopriProdotti({ firstInput, secondInput, thirdInput, specifiedPath }) 
         stroke="currentColor"
         viewBox="0 0 24 24"
         fill="none"
-        class="h-6 w-6"
+        className="h-6 w-6"
         xmlns="http://www.w3.org/2000/svg"
         width="20px"
       >

@@ -33,13 +33,13 @@ function ContactForm() {
     </div>
     </div>
     <div className="col-12">
-    <div class="form-floating mb-3">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <div className="form-floating mb-3">
+      <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
       <label for="floatingTextarea">Messagio</label>
     </div>
     </div>
     <div className="col-12 col-lg-4">
-    <button class="form-btn mb-3" type="submit">Invio</button>
+    <button className="form-btn mb-3" type="submit">Invio</button>
     </div>
     <div className="col-12 col-lg-4 contact-email">
       Email: baraarben@gmail.com

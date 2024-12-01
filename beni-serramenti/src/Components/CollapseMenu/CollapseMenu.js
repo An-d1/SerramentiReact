@@ -1,46 +1,46 @@
 import { Link } from "react-router-dom";
 
-function CollapseMenu({ currentPath, path1, path2, path3, path4, activeProduct, firstProduct, secondProduct,thirdProduct,fourthProduct }) {
+function CollapseMenu({ path0, path1, path2, path3, path4, isActiveClass, isActiveClass1, isActiveClass2, isActiveClass3, isActiveClass4}) {
   return (
     <>
-      <p class="d-flex justify-content-center gap-1">
-        <a class="collapse-btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <p className="d-flex justify-content-center gap-1">
+        <a className="collapse-btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Prodotti
         </a>
 
       </p>
-      <div class="collapse collapse" id="collapseExample">
-        <div class="card card-body d-flex align-items-center">
-        <div class="list-group">
+      <div className="collapse collapse" id="collapseExample">
+        <div className="card card-body d-flex align-items-center">
+        <div className="list-group">
           <Link 
-          to={ currentPath }>
-          <div class="list-group-item list-group-item-action active" aria-current="true">
-          {activeProduct}
+          to={ path0 }>
+          <div className={`list-group-item list-group-item-action ${isActiveClass}`}>
+            Finestre
           </div>
           </Link>
           
           <Link
           to={ path1 }
           >
-            <div class="list-group-item list-group-item-action">{firstProduct}</div>
+            <div className={`list-group-item list-group-item-action ${isActiveClass1}`}>Tapparelle</div>
           </Link>
           
           <Link
           to={ path2 }
           >
-            <div class="list-group-item list-group-item-action">{secondProduct}</div>
+            <div className={`list-group-item list-group-item-action ${isActiveClass2}`}>Zanzariere</div>
           </Link>
 
           <Link
           to={ path3 }
           >
-            <div class="list-group-item list-group-item-action">{thirdProduct}</div>
+            <div className={`list-group-item list-group-item-action ${isActiveClass3}`}>Porte Blindate</div>
           </Link>
 
           <Link
           to={ path4 }
           >
-            <div class="list-group-item list-group-item-action">{fourthProduct}</div>
+            <div className={`list-group-item list-group-item-action ${isActiveClass4}`}>Porte Interne & Esterne</div>
           </Link>
         </div>
         </div>
