@@ -1,22 +1,23 @@
 
-function Modal({ modalHeader, modalBody }) {
+function Modal({ modalHeader, modalBody, modalId  }) {
+
   return (
     <>
-      <button type="button" className="products-button fs-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <button type="button" className="products-button fs-3" data-bs-toggle="modal" data-bs-target={`#${modalId}`}>
               Scopri di più
             </button>
           
-          <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div className="modal fade" id={modalId} data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h1 className="modal-title fs-1" id="staticBackdropLabel">
+                  <h1 className="modal-title fs-1" id={`${modalId}Label`}>
                     {modalHeader}
                   </h1>
                   <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div className="modal-body">
-                  {modalBody}
+                    {modalBody}
                 </div>
                 <div className="modal-footer">
                   <button type="button" className="products-button" data-bs-dismiss="modal">Chiude</button>

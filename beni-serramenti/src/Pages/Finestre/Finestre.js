@@ -8,15 +8,6 @@ import silver from '../../Images/win_0.webp';
 
 function Finestre() {
 
-  const firstModalHeader = "bluEvolution82";
-  const firstModalBody = " Sistemi del futuro: La serie di profili bluEvolution con una profondità costruttiva di 82 mm. Combina un’eccezionale conservazione dell’energia con una tecnologia di tenuta innovativa ai massimi livelli ed è particolarmente adatta come componente per le case passive. Le perdite di calore sono ridotte grazie all’uso di queste cornici e battenti ottimizzati in combinazione con un vetro triplo isolante dotato di un sigillo perimetrale termicamente migliorato. E questo ti fa risparmiare!";
-
-  const secondModalHeader = "proevolution72 md";
-  const secondModalBody = "Il sistema di finestre Salamander Pro 72 MD combina soluzioni tecnologiche, ecologiche ed estetiche avanzate, rispondendo alle sfide del mercato odierno in termini di efficienza energetica, design, comfort dell’utente, sicurezza e durabilità."
-
-  const thirdModalHeader = "greenevolution76"
-  const thirdModalBody = "greenEvolution è il sistema di finestre sostenibile per la ristrutturazione di edifici storici, ristrutturazioni e nuovi progetti di costruzione. Lo stile giusto può essere fornito per ogni tipo di finestra, dai telai delle finestre in stile wilhelminiano a finestre moderne a tutta altezza in vetro: montanti per vetro, finestre a battente singolo o doppio con o senza vetro fisso.Con greenEvolution, una finestra diventa la tua finestra personale. Sono disponibili cinque diversi battenti per questo sistema di profili. Possono essere altamente personalizzati con decorazioni o scocche in alluminio per adattarsi perfettamente alle tue preferenze di facciata e interior design."
-  
   const path0 = "/finestre"
   const path1 = "/tapparelle"
   const path2 = "/zanzariere"
@@ -54,10 +45,10 @@ function Finestre() {
 
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'> 
           <Modal
-            modalHeader={firstModalHeader}
-            modalBody={firstModalBody}
-          >
-          </Modal>
+            modalHeader= "bluEvolution82"
+            modalBody="Sistemi del futuro: La serie di profili bluEvolution con una profondità costruttiva di 82 mm. Combina un'eccezionale conservazione dell'energia con una tecnologia di tenuta innovativa ai massimi livelli ed è particolarmente adatta come componente per le case passive. Le perdite di calore sono ridotte grazie all'uso di queste cornici e battenti ottimizzati in combinazione con un vetro triplo isolante dotato di un sigillo perimetrale termicamente migliorato. E questo ti fa risparmiare!"
+            modalId="modal1"
+          />
           </div>
         </div>
         
@@ -69,11 +60,10 @@ function Finestre() {
 
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'> 
             <Modal
-            modalHeader={secondModalHeader}
-            modalBody={secondModalBody}
-            >
-            
-            </Modal>
+            modalHeader= "proevolution72 md"
+            modalBody= "Il sistema di finestre Salamander Pro 72 MD combina soluzioni tecnologiche, ecologiche ed estetiche avanzate, rispondendo alle sfide del mercato odierno in termini di efficienza energetica, design, comfort dell'utente, sicurezza e durabilità."
+            modalId="modal2"
+            />
           </div>
 
         </div>
@@ -86,11 +76,10 @@ function Finestre() {
           
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'> 
             <Modal
-            modalHeader={thirdModalHeader}
-            modalBody={thirdModalBody}
-            >
-              
-            </Modal>
+            modalHeader= "greenEvolution76"
+            modalBody= "greenEvolution è il sistema di finestre sostenibile per la ristrutturazione di edifici storici, ristrutturazioni e nuovi progetti di costruzione. Lo stile giusto può essere fornito per ogni tipo di finestra, dai telai delle finestre in stile wilhelminiano a finestre moderne a tutta altezza in vetro: montanti per vetro, finestre a battente singolo o doppio con o senza vetro fisso. Con greenEvolution, una finestra diventa la tua finestra personale. Sono disponibili cinque diversi battenti per questo sistema di profili. Possono essere altamente personalizzati con decorazioni o scocche in alluminio per adattarsi perfettamente alle tue preferenze di facciata e interior design."
+            modalId="modal3"
+            />
           </div>
           
         </div>
